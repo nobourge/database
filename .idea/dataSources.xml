@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="postgres@localhost" uuid="8938c2ae-35b2-4906-a3aa-535caf1545af">
-      <driver-ref>postgresql</driver-ref>
+    <data-source source="LOCAL" name="northwind_sqlite" uuid="36fec580-f07c-4a49-aea3-0f501767d6df">
+      <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\bourg\Documents\GitHub\database\7 SQL\tp\3\NorthWind\northwind_sqlite.db\northwind_sqlite.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
